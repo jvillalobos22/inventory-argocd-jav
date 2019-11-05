@@ -2,8 +2,8 @@ global:
   ingressSubdomain: garage-devtools-sfo-rhos.us-east.containers.appdomain.cloud
   tlsSecretName: garage-devtools-sfo-rhos
 
-inventory-ui-jav:
-  replicaCount: 3
+template-node-react:
+  replicaCount: 4
 
   ingress:
     enabled: true
