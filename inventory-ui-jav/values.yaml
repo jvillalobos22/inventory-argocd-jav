@@ -3,7 +3,7 @@ global:
   tlsSecretName: garage-devtools-sfo-rhos
 
 template-node-react:
-  replicaCount: 4
+  replicaCount: 2
 
   ingress:
     enabled: true
